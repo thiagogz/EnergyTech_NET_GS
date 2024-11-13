@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EnergyTech_NET")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5daade2e7651ff660e79eda4696414b13168fee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8c1dd2926ae6a1384420427124af22a6973347b")]
 [assembly: System.Reflection.AssemblyProductAttribute("EnergyTech_NET")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EnergyTech_NET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

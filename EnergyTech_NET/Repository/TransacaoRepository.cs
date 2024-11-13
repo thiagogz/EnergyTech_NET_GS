@@ -30,6 +30,7 @@ namespace EnergyTech_NET.Repository
             return await dbContext.Transacoes
                 .Include(t => t.Cliente)
                 .Include(t => t.Energia)
+                .Include(t => t.Energia.Fornecedor)
                 .ToListAsync();
         }
 
