@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EnergyTech_NET</name>
+    </assembly>
+    <members>
+        <member name="M:EnergyTech_NET.Controllers.AuditLogController.GetAuditLogs">
+            <summary>
+            Retorna a tabela completa de logs de auditoria
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.AuditLogController.GetAuditLog(System.Decimal)">
+            <summary>
+            Retorna o log de auditoria com o id especificado
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.AuditLogController.CreateAuditLog(EnergyTech_NET.Models.TbAuditLog)">
+            <summary>
+            Inserção de um novo log de auditoria
+            </summary>
+            <response code="201">Retorna o log de auditoria criado</response>
+            <response code="400">Se o Request for enviado nulo</response>
+            <response code="500">Se houver algum erro no banco de dados</response>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.AuditLogController.UpdateAuditLog(System.Decimal,EnergyTech_NET.Models.TbAuditLog)">
+            <summary>
+            Altera o log de auditoria com o id especificado
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.AuditLogController.DeleteAuditLog(System.Decimal)">
+            <summary>
+            Deleta o log de auditoria com o id especificado
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.ClienteController.GetClientes">
+            <summary>
+            Retorna a tabela completa de clientes
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.ClienteController.GetCliente(System.Decimal)">
+            <summary>
+            Retorna o cliente com o id especificado
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.ClienteController.CreateCliente(EnergyTech_NET.Models.TbAppCliente)">
+            <summary>
+            Inserção de um novo cliente
+            </summary>
+            <response code="201">Retorna o cliente criado</response>
+            <response code="400">Se o Request for enviado nulo</response>
+            <response code="500">Se houver algum erro no banco de dados</response>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.ClienteController.UpdateCliente(System.Decimal,EnergyTech_NET.Models.TbAppCliente)">
+            <summary>
+            Altera o cliente com o id especificado
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.ClienteController.DeleteCliente(System.Decimal)">
+            <summary>
+            Deleta o cliente com o id especificado
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.EnergiaController.GetEnergias">
+            <summary>
+            Retorna a tabela completa de energias
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.EnergiaController.GetEnergia(System.Decimal)">
+            <summary>
+            Retorna a energia com o id especificado
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.EnergiaController.CreateEnergia(EnergyTech_NET.Models.TbAppEnergia)">
+            <summary>
+            Inserção de uma nova energia
+            </summary>
+            <response code="201">Retorna a energia criada</response>
+            <response code="400">Se o Request for enviado nulo</response>
+            <response code="500">Se houver algum erro no banco de dados</response>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.EnergiaController.UpdateEnergia(System.Decimal,EnergyTech_NET.Models.TbAppEnergia)">
+            <summary>
+            Altera a energia com o id especificado
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.EnergiaController.DeleteEnergia(System.Decimal)">
+            <summary>
+            Deleta a energia com o id especificado
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.EstoqueEnergiaController.GetEstoquesEnergia">
+            <summary>
+            Retorna a tabela completa de estoques de energia
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.EstoqueEnergiaController.GetEstoqueEnergia(System.Decimal)">
+            <summary>
+            Retorna o estoque de energia com o id especificado
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.EstoqueEnergiaController.CreateEstoqueEnergia(EnergyTech_NET.Models.TbAppEstoqueEnergia)">
+            <summary>
+            Inserção de um novo estoque de energia
+            </summary>
+            <response code="201">Retorna o estoque de energia criado</response>
+            <response code="400">Se o Request for enviado nulo</response>
+            <response code="500">Se houver algum erro no banco de dados</response>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.EstoqueEnergiaController.UpdateEstoqueEnergia(System.Decimal,EnergyTech_NET.Models.TbAppEstoqueEnergia)">
+            <summary>
+            Altera o estoque de energia com o id especificado
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.EstoqueEnergiaController.DeleteEstoqueEnergia(System.Decimal)">
+            <summary>
+            Deleta o estoque de energia com o id especificado
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.FornecedoresController.GetFornecedores">
+            <summary>
+            Retorna a tabela completa de fornecedores
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.FornecedoresController.GetFornecedor(System.Decimal)">
+            <summary>
+            Retorna o fornecedor com o id especificado
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.FornecedoresController.CreateFornecedor(EnergyTech_NET.Models.TbAppFornecedores)">
+            <summary>
+            Inserção de um novo fornecedor
+            </summary>
+            <response code="201">Retorna o fornecedor criado</response>
+            <response code="400">Se o Request for enviado nulo</response>
+            <response code="500">Se houver algum erro no banco de dados</response>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.FornecedoresController.UpdateFornecedor(System.Decimal,EnergyTech_NET.Models.TbAppFornecedores)">
+            <summary>
+            Altera o fornecedor com o id especificado
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.FornecedoresController.DeleteFornecedor(System.Decimal)">
+            <summary>
+            Deleta o fornecedor com o id especificado
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.TransacaoController.GetTransacoes">
+            <summary>
+            Retorna a tabela completa de transações
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.TransacaoController.GetTransacao(System.Decimal)">
+            <summary>
+            Retorna a transação com o id especificado
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.TransacaoController.CreateTransacao(EnergyTech_NET.Models.TbAppTransacao)">
+            <summary>
+            Inserção de uma nova transação
+            </summary>
+            <response code="201">Retorna a transação criada</response>
+            <response code="400">Se o Request for enviado nulo</response>
+            <response code="500">Se houver algum erro no banco de dados</response>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.TransacaoController.UpdateTransacao(System.Decimal,EnergyTech_NET.Models.TbAppTransacao)">
+            <summary>
+            Altera a transação com o id especificado
+            </summary>
+        </member>
+        <member name="M:EnergyTech_NET.Controllers.TransacaoController.DeleteTransacao(System.Decimal)">
+            <summary>
+            Deleta a transação com o id especificado
+            </summary>
+        </member>
+        <member name="T:EnergyTech_NET.Migrations.DBAConnection">
+            <inheritdoc />
+        </member>
+        <member name="M:EnergyTech_NET.Migrations.DBAConnection.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EnergyTech_NET.Migrations.DBAConnection.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EnergyTech_NET.Migrations.DBAConnection.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

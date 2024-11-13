@@ -1,0 +1,6 @@
+@EnergyTech_NET_HostAddress = http://localhost:5168
+
+GET {{EnergyTech_NET_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
