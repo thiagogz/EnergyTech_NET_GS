@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\Thiago\\source\\repos\\EnergyTech_GS\\EnergyTech_NET\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Thiago\\source\\repos\\EnergyTech_GS\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{14A01664-114C-4EF3-AF12-9686FE1CABCB}|EnergyTech_NET.csproj|c:\\users\\thiago\\source\\repos\\energytech_gs\\energytech_net\\repository\\transacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14A01664-114C-4EF3-AF12-9686FE1CABCB}|EnergyTech_NET.csproj|solutionrelative:repository\\transacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -42,6 +45,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\EnergyTech_GS\\README.md",
+              "RelativeDocumentMoniker": "..\\README.md",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\EnergyTech_GS\\README.md",
+              "RelativeToolTip": "..\\README.md",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-11-17T23:31:13.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "TransacaoRepository.cs",
               "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\EnergyTech_GS\\EnergyTech_NET\\Repository\\TransacaoRepository.cs",
               "RelativeDocumentMoniker": "Repository\\TransacaoRepository.cs",
@@ -54,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EnergyTechTests.cs",
               "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\EnergyTech_GS\\EnergyTech_Test\\EnergyTechTests.cs",
               "RelativeDocumentMoniker": "..\\EnergyTech_Test\\EnergyTechTests.cs",
@@ -66,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\EnergyTech_GS\\EnergyTech_NET\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -78,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\EnergyTech_GS\\EnergyTech_NET\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",

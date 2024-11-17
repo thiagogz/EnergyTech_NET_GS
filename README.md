@@ -15,7 +15,7 @@
 - Thiago Zupelli - RM99085.
 
 ## Descrição da Solução
-A Energy Tech é uma plataforma em formado de marketplace, onde empresas, pequenos produtores e consumidores individuais podem comercializar energia renovável excedente, de forma segura e transparente.\
+A Energy Tech é uma plataforma em formato de marketplace, onde empresas, pequenos produtores e consumidores individuais podem comercializar energia renovável excedente, de forma segura e transparente.\
 O sistema inclui um programa de doação de energia para comunidades carentes, incentivando os fornecedores a contribuírem para a inclusão social, além de receber benefícios fiscais adicionais ao promover acesso à energia limpa em áreas vulneráveis.\
 O app combina tecnologias de IoT e blockchain para validar e registrar a energia gerada, armazenada e disponível para venda ou doação, assegurando que o marketplace opere com dados precisos e que as transações sejam seguras.
 
@@ -42,7 +42,7 @@ O app combina tecnologias de IoT e blockchain para validar e registrar a energia
 #### POST AuditLog:
 ```js
 {
- "auditId": 105,
+ "auditId": 5005,
  "tableName": "tb_app_fornecedores",
  "actionType": "INSERT",
  "recordId": 1,
@@ -54,7 +54,7 @@ O app combina tecnologias de IoT e blockchain para validar e registrar a energia
 #### UPDATE AuditLog:
 ```js
 {
- "auditId": 105,
+ "auditId": 5005,
  "tableName": "tb_app_fornecedores",
  "actionType": "UPDATE",
  "recordId": 1,
@@ -66,7 +66,7 @@ O app combina tecnologias de IoT e blockchain para validar e registrar a energia
 #### POST Cliente:
 ```js
 {
-  "clienteId": 21,
+  "clienteId": 101,
   "nome": "João Pedro",
   "email": "joaopedro@gmail.com",
   "senhaHash": "senha_hash1",
@@ -79,7 +79,7 @@ O app combina tecnologias de IoT e blockchain para validar e registrar a energia
 #### UPDATE Cliente:
 ```js
 {
-  "clienteId": 21,
+  "clienteId": 101,
   "nome": "João Paulo",
   "email": "joaopaulo@gmail.com",
   "senhaHash": "senha_hash1",
@@ -92,7 +92,7 @@ O app combina tecnologias de IoT e blockchain para validar e registrar a energia
 #### POST Energia:
 ```js
 {
-  "energiaId": 11,
+  "energiaId": 101,
   "tipoEnergia": "Solar",
   "quantidadeDisponivel": 1200,
   "precoUnitario": 0.50,
@@ -105,7 +105,7 @@ O app combina tecnologias de IoT e blockchain para validar e registrar a energia
 #### UPDATE Energia:
 ```js
 {
-  "energiaId": 11,
+  "energiaId": 101,
   "tipoEnergia": "Solar",
   "quantidadeDisponivel": 4200,
   "precoUnitario": 0.96,
@@ -118,7 +118,7 @@ O app combina tecnologias de IoT e blockchain para validar e registrar a energia
 #### POST EstoqueEnergia:
 ```js
 {
-  "estoqueId": 11,
+  "estoqueId": 101,
   "energiaId": 1,
   "dispositivoId": "DISP_SOLAR11",
   "quantidadeArmazenada": 2000,
@@ -130,7 +130,7 @@ O app combina tecnologias de IoT e blockchain para validar e registrar a energia
 #### UPDATE EstoqueEnergia:
 ```js
 {
-  "estoqueId": 11,
+  "estoqueId": 101,
   "energiaId": 4,
   "dispositivoId": "DISP_SOLAR11",
   "quantidadeArmazenada": 2000,
@@ -142,7 +142,7 @@ O app combina tecnologias de IoT e blockchain para validar e registrar a energia
 #### POST Fornecedor:
 ```js
 {
-  "fornecedorId": 11,
+  "fornecedorId": 101,
   "nome": "Power Solar",
   "email": "powersolar@example.com",
   "senhaHash": "senha_hash1",
@@ -155,7 +155,7 @@ O app combina tecnologias de IoT e blockchain para validar e registrar a energia
 #### UPDATE Fornecedor:
 ```js
 {
-  "fornecedorId": 11,
+  "fornecedorId": 101,
   "nome": "Poder do Sol",
   "email": "poderdosol@example.com",
   "senhaHash": "senha_hash1",
@@ -168,7 +168,7 @@ O app combina tecnologias de IoT e blockchain para validar e registrar a energia
 #### POST Transação:
 ```js
 {
-  "transacaoId": 11,
+  "transacaoId": 101,
   "tipoTransacao": "Compra",
   "quantidade": 5000,
   "valorTotal": 450,
@@ -185,7 +185,7 @@ O app combina tecnologias de IoT e blockchain para validar e registrar a energia
 #### UPDATE Transação:
 ```js
 {
-  "transacaoId": 11,
+  "transacaoId": 101,
   "tipoTransacao": "Compra",
   "quantidade": 2000,
   "valorTotal": 300,
